@@ -1,9 +1,67 @@
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: italic ;
+    font-size: 3.5rem;
+    color: aliceblue;
+    font-weight: 1000; 
+    line-height:1.4
+}
+
 #title {
     background-color: #ff4c68;
 }
+
+#features {
+    background-color: #ff4c6734;
+}
+
+#download-btn {
+    margin:5% 3% 5% 0 ;
+}
+
 .ubuntu-font {
     font-family: 'Dosis', sans-serif;
 font-family: 'Indie Flower', cursive;
 font-family: 'Ubuntu', sans-serif;
 font-family: 'Yellowtail', cursive;
+}
+
+
+.container-fluid {
+    
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding: 10px 0 4.5rem ;
+}
+.nav-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    /* font-family: "ubuntu"; */
+}
+
+.title-image {
+    width: 50%;
+    transform: rotate(20deg);
+}
+
+.features-icon {
+    text-align: center;
+    font-size: 100px;
+    padding: 6% 0 6% 0;
 }
